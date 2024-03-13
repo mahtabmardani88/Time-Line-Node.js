@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 121, 36, 1) 0%,
+      rgba(179, 179, 179, 1) 100%
+    );
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+  h1 {
+    margin: 2vh;
+  }
+  
+  .main-container {
+    margin: 2vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .postEl {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 4vh;
+    padding-bottom: 0.5vh;
+    border-bottom: 1px solid black;
+  }
+  
+  .postEl:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
